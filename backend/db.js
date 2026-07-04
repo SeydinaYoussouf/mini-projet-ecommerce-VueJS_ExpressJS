@@ -4,7 +4,7 @@ const mysql = require('mysql2/promise');
 const dbConnect = mysql.createPool({
     host : 'localhost',
     user : 'root',
-    password : 'Arouna999',
+    password : '*********',
     database : 'ecommerce'
 });
 module.exports = dbConnect;
